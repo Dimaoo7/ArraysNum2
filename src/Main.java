@@ -71,15 +71,12 @@ public class Main {
 
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
 
-
-        for (int j : reverseFullName) {
+        for (int i = 10; i >= 0; i--) {
+            System.out.print(reverseFullName[i]);
+        }
 
         }
-        System.out.print(reverseFullName[3]);
-        System.out.print(reverseFullName[2]);
-        System.out.print(reverseFullName[1]);
-        System.out.print(reverseFullName[0]);
 
     }
 
-}
+
